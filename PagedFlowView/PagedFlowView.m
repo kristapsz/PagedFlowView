@@ -407,6 +407,7 @@
         }
         [self setPagesAtContentOffset:_scrollView.contentOffset];
         [self refreshVisibleCellAppearance];
+        _currentPageIndex = pageNumber;
     }
 }
 
